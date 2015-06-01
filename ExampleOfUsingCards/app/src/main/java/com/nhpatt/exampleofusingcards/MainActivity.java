@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		scrollView.addView(view);
 
 		listView.add(card);
+
+		listView.add(createCard(), 1);
 	}
 
 	@NonNull

@@ -7,6 +7,8 @@ import java.util.Collection;
 public interface IMaterialListAdapter {
 	void add(Card card);
 
+	void add(Card card, Integer position);
+
 	void addAtStart(Card card);
 
 	void addAll(Card... cards);
