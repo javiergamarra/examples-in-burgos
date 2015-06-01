@@ -1,1 +1,3 @@
-include ':app'
+include ':app', ':materialList'
+
+project(':materialList').projectDir = new File(settingsDir, '/MaterialList/materialList')
